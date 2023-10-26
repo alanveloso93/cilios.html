@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 20px;
+}
+
+#minha-foto {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: 150px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 50%; /* Isso faz com que a imagem fique em formato redondo */
+  position: absolute;
+  top: 20px; /* Distância do topo */
+  left: 20px; /* Distância da esquerda */
+}
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+header {
+  background-color: #ff4081;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  object-fit: cover;
+  border: 2px solid #ff4081;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+body {
+  background-color: #f7f7f7;
+}
+.container {
+  background-color: #ffffff76;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+}
+
+p, li {
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li:before {
+  content: "\2022"; /* Adiciona um marcador de bola antes de cada item da lista */
+  color:antiquewhite; /* Cor da bola */
+  margin-right: 8px; /* Espaçamento entre a bola e o texto */
+}
+
+a {
+  color: #ff0051;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:antiquewhite; /* Cor diferente ao passar o mouse sobre os links */
+}
+
+body {
+  background-color: #f7f7f7; /* Cor de fundo para o corpo da página */
+}
+
+.container {
+  background-color: #ff4081; /* Cor de fundo rosa para a área de conteúdo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 10px;
+  color: #ff4081; /* Cor rosa para os ícones */
+  transition: color 0.3s; /* Transição suave de cor ao passar o mouse */
+}
+
+.social-icons a i {
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #e86dcb; /* Cor rosa mais escura ao passar o mouse */
+}
